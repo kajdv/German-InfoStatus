@@ -33,7 +33,7 @@ var items = [
         newHtml("scale form", "Scale.html")
             .print()
         ,
-        newButton("continue btn", "Fortsetzen.")  
+        newButton("continue btn", "Weiter.")  
             .print()
             .wait( getHtml("scale form").test.complete().failure(getHtml("scale form").warn()) )
     )]
@@ -42,7 +42,7 @@ var items = [
         newHtml("distract form", "DistractionsOff.html")
             .print()
         ,
-        newButton("continue btn", "Fortsetzen.")
+        newButton("continue btn", "Weiter.")
             .print()
             .wait( getHtml("distract form").test.complete().failure(getHtml("distract form").warn()) )
     )] 
@@ -123,7 +123,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-DiscFam.csv" 
             .settings.css("margin-left", 50 )
             .print()
         ,
-        newButton("validate", "N&auml;chste Frage.")
+        newButton("validate", "Weiter.")
             .settings.center() 
             .print()    
             .wait(getScale("answer")
