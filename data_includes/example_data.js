@@ -145,7 +145,7 @@ PennController.FeedItems( PennController.GetTable( "GER-datasource-DiscFam.csv" 
     .log("NoExpt", item.NoExpt)
     .log("EmbCondition", item.EmbCondition)
     .log("mcpred", item.mcpred)  
-    .log("Stims", item.Stims)  
+ //   .log("Stims", item.Stims)  
     .log("PROLIFIC_PID", PennController.GetURLParameter("PROLIFIC_PID"))
 );
 
